@@ -5,6 +5,7 @@ This script can compare the hash of a file against a given hash, or simply resul
 
 It is entirely built in to windows 7\8\10, no installation of files is necessary. Can run in non-admin powershell provided the system allows script execution already. Tested with a low as powershell version 5.
 
+To run script, open powershell, select appropriate executionpolicy level, run .\get-hash.ps1
 
 When script runs, youll be presented with a popup to browse and select a file to check the hash of.
 

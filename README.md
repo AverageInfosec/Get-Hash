@@ -3,7 +3,7 @@ Get the hash of a file and compare against known hash
 
 This script can compare the hash of a file against a given hash, or simply result the hash of the file. 
 
-It is entirely built in to windows 7\8\10, no installation of files is necessary. Can run in non-admin powershell provided the system allows script execution already.
+It is entirely built in to windows 7\8\10, no installation of files is necessary. Can run in non-admin powershell provided the system allows script execution already. Tested with a low as powershell version 5.
 
 
 When script runs, youll be presented with a popup to browse and select a file to check the hash of.

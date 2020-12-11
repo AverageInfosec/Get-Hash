@@ -14,3 +14,6 @@ Next youll need to select what algorithim to use, SHA256 for example.
 Then if you have a hash to compare against the given file, youll enter it. If you do not have any hash to compare against, just leave blank and hit enter.
 
 Script will check the hash of the given file with the given algorithim and show the results below. The script will show in green if the given hash and file hash match, it will show in red if they do not match, or if no hash was given to compare against. The script will detect difference in capitilzation. 
+
+
+Thanks to Adam Bertram's article for the GUI file selection code. https://4sysops.com/archives/how-to-create-an-open-file-folder-dialog-box-with-powershell/

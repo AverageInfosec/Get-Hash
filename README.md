@@ -1,5 +1,5 @@
 # Get-Hash
-Get the hash of a file and compare against known hash
+Get the hash of a file and compare against known hash using powershell.
 
 This script can compare the hash of a file against a given hash, or simply result the hash of the file. 
 

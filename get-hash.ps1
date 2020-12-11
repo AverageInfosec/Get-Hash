@@ -20,12 +20,12 @@ $hashis = Get-Filehash -path $Filelocation -algorithm $selectalg | Select-Object
     Write-host -NoNewline "`n`nFile Hash   : " $hashis
     Write-host -NoNewline "`ncompare Hash: " $hashshould
 
-#-ceq required for case sensitive checking. output on screen whether hash's matched or not. Checks if hash of source file and given hash are the same.
+#-ceq required for case sensitive checking. output on screen whether hashes matched or not. Checks if hash of source file and given hash are the same.
 IF ($hashis -ceq $hashshould)
     { 
-        Write-host -ForegroundColor Green "`n`nHash's Match"
+        Write-host -ForegroundColor Green "`n`nHashes Match"
     }
     Else
     {
-        write-host -ForegroundColor Red "`n`nHash's dont match"
+        write-host -ForegroundColor Red "`n`nHashes dont match"
     }
